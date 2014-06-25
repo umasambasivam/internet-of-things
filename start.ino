@@ -57,9 +57,14 @@ void loop() {
           client.println("<html>");
             client.println("<head>");
               client.println("<title>Arduino Ethernet</title>");
+              client.println("<script src=\"http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js\"></script>");
+              client.println("<link href=\"http://maxcdn.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css\" rel=\"stylesheet\">");
+              client.println("<script src=\"http://maxcdn.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js\"></script>");
             client.println("</head>");
             
             client.println("<body>");
+            
+            // Add your visible components here.
             
             client.println("</body>");
           
